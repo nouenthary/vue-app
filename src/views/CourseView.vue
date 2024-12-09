@@ -26,10 +26,20 @@
                     this.data = json;
                     console.log(json);
                 });
-            }
+            },
+            //http://35.240.175.254:3000/
+
+             getDatas(){
+                fetch('http://35.240.175.254:3000')
+                .then(res=>res.json())
+                .then(json=>{
+                    console.log(json);
+                });
+            },
         },
         created(){
             this.getData();
+            this.getDatas();
         }
     }
 </script>
