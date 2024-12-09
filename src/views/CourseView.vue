@@ -1,9 +1,9 @@
 <template>
     <div>
         Course Vue
-
+ 
         <div>
-            <pre>
+            <pre class="text-red">
                 {{data}}
             </pre>
         </div>
