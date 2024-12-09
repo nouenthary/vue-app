@@ -1,6 +1,6 @@
 <template>
     <div>
-        Course Vue
+        Course Vues
  
         <div>
             <pre class="text-red">
