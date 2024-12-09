@@ -5,7 +5,7 @@
         <div>
             <pre>
                 {{data}}
-            </prev>
+            </pre>
         </div>
     </div>
 </template>
