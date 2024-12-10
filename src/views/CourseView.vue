@@ -30,7 +30,7 @@
             //http://35.240.175.254:3000/
 
              getDatas(){
-                fetch('http://35.240.175.254:3000')
+                fetch('https://35.240.175.254/api/client/about-us-blog')
                 .then(res=>res.json())
                 .then(json=>{
                     console.log(json);
