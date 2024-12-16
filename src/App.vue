@@ -8,7 +8,7 @@
             </template>
 
             <v-toolbar-items class="hidden-sm-and-down">
-                <v-btn text @click="login('/')">Home</v-btn>
+                <v-btn text @click="login('/')">Home Page</v-btn>
                 <v-btn text @click="login('/course')">Course</v-btn>
                 <v-btn text @click="login('/login')">Login</v-btn>
             </v-toolbar-items>
